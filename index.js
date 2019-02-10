@@ -1,7 +1,5 @@
-const linkto = require('jsdoc/util/templateHelper').linkto
-
 exports.handlers = {
-  processingComplete: ({doclets}) => doclets.forEach(doclet => {
+  parseComplete: ({doclets}) => doclets.forEach(doclet => {
     if(!doclet.memberof) return
 
     ;[doclet.returns, doclet.params]
