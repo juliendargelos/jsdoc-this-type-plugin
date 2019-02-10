@@ -1,5 +1,5 @@
 exports.handlers = {
-  parseComplete: ({doclets}) => doclets.forEach(doclet => {
+  processingComplete: ({doclets}) => doclets.forEach(doclet => {
     if(!doclet.memberof) return
 
     ;[doclet.returns, doclet.params]

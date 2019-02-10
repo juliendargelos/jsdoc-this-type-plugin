@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-this-type-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use this as a type in JSDoc.",
   "repository": "https://github.com/juliendargelos/jsdoc-this-type-plugin",
   "author": "Julien Dargelos",
